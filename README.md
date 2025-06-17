@@ -1,1 +1,5 @@
 # Salary-Prediction-Project
+The Salary Prediction Project analyzes Glassdoor job postings (2017-2018) to predict tech industry salaries based on factors like job role, company size, and location. The goal is to help job seekers, employers, and recruiters make data-driven compensation decisions.
+The dataset was cleaned and explored, revealing key trends:
+DevOps roles earn more than Data Scientists and Software Engineers. Larger companies (5000+ employees) pay higher salaries. Washington, D.C. offers the highest average salaries, followed by Illinois and North Carolina. Three machine learning models were tested:
+Linear Regression (baseline, R²: 0.16). Random Forest (improved performance, R²: 0.62). Gradient Boosting (best model, R²: 0.62 after hyperparameter tuning). The Gradient Boosting model was selected for deployment due to its balance of accuracy and interpretability. Key findings were validated using statistical tests, confirming that DevOps salaries are significantly higher than other roles.
